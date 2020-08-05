@@ -182,6 +182,9 @@ class chessBot:
 
 board = chess.Board()
 # put moves here
+
+
+
 # getting the bot set up with the current board
 bot = chessBot(chess.WHITE)
 move = bot.get_best_move(board)
